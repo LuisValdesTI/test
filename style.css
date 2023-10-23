@@ -1,0 +1,64 @@
+.div-cesehsin {
+  /* Reglas de estilo para el contenedor principal */
+  border-radius: 20px;
+  position: relative;
+  width: 45%;
+  margin: 0 auto;
+  /* Asegúrate de que el padre tenga posición relativa */
+  position: relative;
+}
+
+.div-cesehsin .borde-superior {
+  /* Reglas de estilo para .borde-superior dentro del contenedor .div-cesehsin */
+  background-color: transparent;
+  padding: 10px 0;
+}
+
+.div-cesehsin .borde-superior img {
+  /* Reglas de estilo para imágenes dentro de .borde-superior dentro del contenedor .div-cesehsin */
+  width: 80px;
+}
+
+.div-cesehsin .cesehsin {
+  /* Reglas de estilo para .cesehsin dentro del contenedor .div-cesehsin */
+  position: absolute;
+  top: -18%; /* acomodar cesehsin en la parte superior */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.div-cesehsin .btn-ventana {
+  /* Reglas de estilo para .btn-ventana dentro del contenedor .div-cesehsin */
+  position: absolute;
+  right: 0%;
+  top: -2%;
+  transform: translateY(0%); 
+}
+
+.equipo_e-commerce {
+  /* Reglas de estilo para .equipo_e-commerce dentro del contenedor .div-cesehsin */
+  text-align: right;
+  align-items: right;
+  font-size: 14px;
+  font-family: verdana, sans-serif;
+  color: #000000;
+  width: 28%;
+  /* Posiciona el div en la esquina inferior derecha del padre */
+  position: absolute;
+  right: 33%;
+}
+
+.div-cesehsin .espacio-interno .mensaje {
+  /* Reglas de estilo para .mensaje dentro del contenedor .div-cesehsin y .espacio-interno */
+  font-size: 14px;
+  font-family: verdana, sans-serif;
+  color: #000000;
+}
+
+.div-cesehsin .negritas-verde {
+  /* Reglas de estilo para .negritas-verde dentro del contenedor .div-cesehsin */
+  font-weight: bold;
+  font-size: 14px;
+  font-family: verdana, sans-serif;
+  color: #00953A;
+}
